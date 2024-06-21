@@ -12,7 +12,8 @@
   }
 }
 .copy{
-color: #ffffff !important;
+font-family: Arial, Helvetica, sans-serif;
+color: #fdfdfd !important;
 font-size: 14px !important;
 }
 body {
@@ -145,13 +146,13 @@ button:not(:disabled),
   border-radius: 25px;
   text-decoration: none;
 }
-.Exprence{
-  color: #f1f1f1;
+.experience{
+  color: #6e7f36;
 
 }
-.Exprence:hover{
-  color: #c8f157;
-  text-shadow: 5px 1px 4px #000000;
+.experience:hover{
+  color: #454644;
+  text-shadow: 5px 1px 4px #6e7f36;
 }
 .img-fluid {
   max-width: 100%;
@@ -201,7 +202,13 @@ ul li{
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
-
+.t-25{
+  font-size: 22px;
+  line-height: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f1f1f1;
+  letter-spacing: 3px;
+}
 .row>* {
   flex-shrink: 0;
   width: 100%;
@@ -285,12 +292,13 @@ ul li{
     font-size: 26px !important;
     line-height: 30px !important;
     font-weight: 300;
-    border: 3px solid white;
+    border: 3px solid rgb(28, 27, 27);
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
     border-radius: 25px;
     text-decoration: none;
+    background-color: #f1f1f1;
   }
 
   .col-md {
@@ -7766,7 +7774,7 @@ html {
 }
 
 .width-600 {
-  width: 600px !important;
+  width: 800px !important;
 }
 
 .pt-20 {
@@ -7776,6 +7784,14 @@ html {
 .preview {
   color: #f1f1f1;
   font-size: 20px;
+  line-height:22px ;
+  text-decoration: none;
+}
+
+.preview:hover {
+  color: #0cad14;
+  font-size: 22px;
+  line-height: 24px;
   text-decoration: none;
 }
 
@@ -7915,6 +7931,7 @@ html {
   display: block;
   max-width: 25rem;
   border-radius: 0.5rem;
+
   overflow: hidden;
 }
 
@@ -7924,7 +7941,7 @@ html {
   left: 0;
   transition: all 0.3s ease-in-out;
   opacity: 0;
-  background-color: #82ccdd;
+  background-color: #636565;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -7937,11 +7954,20 @@ html {
 }
 
 .portfolio-item-caption-content a {
-  font-size: 30px;
+  font-size: 20px;
+  line-height: 22px;
   color: #f1f1f1;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.portfolio-item-caption-content:hover a {
+  font-size: 22px;
+  line-height: 24px;
+  color: #e4f734;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .portfolio-modal .btn-close {
   color: #1abc9c;
   font-size: 2rem;
